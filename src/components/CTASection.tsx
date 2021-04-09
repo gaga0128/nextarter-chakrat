@@ -11,21 +11,16 @@ const CTASection = () => {
       </Link>
       <Flex marginY={4} justifyContent="center" gridGap={2}>
         <Link
-          aria-label="Deploy to Vercel"
           isExternal
           href="https://vercel.com/import/git?s=https://github.com/sozonome/nextchakra-starter"
         >
-          <Image src="https://vercel.com/button" alt="Vercel deploy button" />
+          <Image src="https://vercel.com/button" />
         </Link>
         <Link
-          aria-label="Deploy to Netlify"
           isExternal
           href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextchakra-starter"
         >
-          <Image
-            src="https://www.netlify.com/img/deploy/button.svg"
-            alt="Netlify deploy button"
-          />
+          <Image src="https://www.netlify.com/img/deploy/button.svg" />
         </Link>
       </Flex>
     </Box>

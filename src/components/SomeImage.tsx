@@ -1,4 +1,4 @@
-import { Link, Text } from "@chakra-ui/layout";
+import { Box, Link, Text } from "@chakra-ui/layout";
 import Image from "next/image";
 import React from "react";
 import MotionBox from "./motion/Box";
@@ -13,12 +13,7 @@ const SomeImage = () => {
         maxWidth={400}
         marginX="auto"
       >
-        <Image
-          src="/Launching-amico.svg"
-          width={400}
-          height={400}
-          alt="Launching Illustration"
-        />
+        <Image src="/Launching-amico.svg" width={400} height={400} />
       </MotionBox>
       <Text textAlign="center" fontSize="xs">
         <Link href="https://stories.freepik.com/web" isExternal>

@@ -12,7 +12,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html>
         <Head>
           <meta name="application-name" content={APP_NAME} />
           <meta name="apple-mobile-web-app-capable" content="yes" />
